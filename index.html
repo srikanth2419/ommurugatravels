@@ -1,0 +1,522 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OMMURUGA TOUR'S & TRAVELS</title><link rel="stylesheet" href="style.css"></head>
+                     <body>
+                         <header>
+
+                             <div class="logo">
+                                 OMMURUGA TOUR'S
+                             </div>
+
+                             <nav id="navbar">
+
+                                 <a href="#home" onclick="toggleMenu_reset()">Home</a>
+                                 <a href="#about" onclick="toggleMenu_reset()">About</a>
+                                 <a href="#fleet" onclick="toggleMenu_reset()">Fleet</a>
+                                 <a href="#packages" onclick="toggleMenu_reset()">Packages</a>
+                                 <a href="#why" onclick="toggleMenu_reset()">Why Us</a>
+                                 <a href="#services" onclick="toggleMenu_reset()">Services</a>
+                                 <a href="#gallery" onclick="toggleMenu_reset()">Gallery</a>
+                                 <a href="#contact" onclick="toggleMenu_reset()">Contact</a>
+
+                             </nav>
+
+                             <div class="menu-btn" onclick="toggleMenu()">
+                                 ☰
+                             </div>
+
+                         </header>
+                         <section class="hero">
+
+                             <div class="slider">
+
+                                 <div class="slide active">
+                                     <img src="./images/car1.jpeg" alt="">
+                                     <div class="overlay">
+                                         <h1>OMMURUGA TOUR'S & TRAVELS</h1>
+                                         <p>Your Journey, Our Responsibility</p>
+                                         <button onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'})">
+                                             Book Now
+                                         </button>
+                                     </div>
+                                 </div>
+
+                                 <div class="slide">
+                                     <img src="./images/car2.jpeg" alt="">
+                                     <div class="overlay">
+                                         <h1>Travel Safe & Comfortable</h1>
+                                         <p>Premium Cars & Vans Available</p>
+                                         <button onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'})">
+                                             Book Now
+                                         </button>
+                                     </div>
+                                 </div>
+
+                                 <div class="slide">
+                                     <img src="./images/car3.jpeg" alt="">
+                                     <div class="overlay">
+                                         <h1>Temple & Family Tours</h1>
+                                         <p>Tirupati • Munnar • Kerala • Kanyakumari</p>
+                                         <button onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'})">
+                                             Book Now
+                                         </button>
+                                     </div>
+                                 </div>
+                                 <div class="slide">
+                                     <img src="./images/car4.jpeg" alt="">
+                                     <div class="overlay">
+                                         <h1>Temple & Family Tours</h1>
+                                         <p>Tirupati • Munnar • Kerala • Kanyakumari</p>
+                                         <button onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'})">
+                                             Book Now
+                                         </button>
+                                     </div>
+                                 </div>
+                                 <div class="slide">
+                                     <img src="./images/car5.jpeg" alt="">
+                                     <div class="overlay">
+                                         <h1>Temple & Family Tours</h1>
+                                         <p>Tirupati • Munnar • Kerala • Kanyakumari</p>
+                                         <button onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'})">
+                                             Book Now
+                                         </button>
+                                     </div>
+                                 </div>
+
+                             </div>
+
+                         </section>
+                         <!-- ================= ABOUT US ================= -->
+
+                         <section id="about" class="about-section">
+
+                             <div class="container">
+
+                                 <div class="section-title">
+                                     <h2>About OMMURUGA TOUR'S & TRAVELS</h2>
+                                     <p>Your Journey, Our Responsibility</p>
+                                 </div>
+
+                                 <div class="about-grid">
+
+                                     <div class="about-card">
+                                         <div class="about-icon">🏢</div>
+                                         <h3>Who We Are</h3>
+
+                                         <p>
+                                             OMMURUGA TOUR'S & TRAVELS is one of the trusted travel service
+                                             providers serving Sivakasi, Sattur, Virudhunagar District and
+                                             nearby areas. With over <strong>15 years of experience</strong>,
+                                             we have built a reputation for delivering safe, comfortable and
+                                             reliable travel services for individuals, families, businesses
+                                             and groups.
+                                         </p>
+                                     </div>
+
+                                     <div class="about-card">
+                                         <div class="about-icon">🎯</div>
+                                         <h3>Our Mission</h3>
+
+                                         <p>
+                                             Our mission is to make every journey comfortable,
+                                             memorable and worry-free by providing well-maintained
+                                             vehicles, experienced drivers, affordable pricing and
+                                             exceptional customer service.
+                                         </p>
+                                     </div>
+                                 </div>
+                             </div>
+
+                         </section>
+
+                         <section id="fleet">
+                             <h2>Fleet</h2><div class="cards">
+                                 <div class="card"><h3>Swift Dzire</h3><button onclick="pick('Swift Dzire')">Book</button></div>
+                                 <div class="card"><h3>Toyota Innova</h3><button onclick="pick('Toyota Innova')">Book</button></div>
+                                 <div class="card"><h3>Ertiga</h3><button onclick="pick('Ertiga')">Book</button></div>
+                                 <div class="card"><h3>Tempo Traveller</h3><button onclick="pick('Tempo Traveller')">Book</button></div>
+                             </div>
+                         </section>
+                         <section id="services" class="services-section">
+
+                             <div class="container">
+
+                                 <h2>Our Travel Services</h2>
+
+                                 <p class="subtitle">
+                                     We provide transportation services for every occasion with comfort and safety.
+                                 </p>
+
+                                 <div class="service-grid">
+
+                                     <div class="service-card">
+                                         <span>💍</span>
+                                         <h3>Marriage Functions</h3>
+                                     </div>
+
+                                     <div class="service-card">
+                                         <span>🏥</span>
+                                         <h3>Medical Travel</h3>
+                                     </div>
+
+                                     <div class="service-card">
+                                         <span>🚉</span>
+                                         <h3>Railway Pickup & Drop</h3>
+                                     </div>
+
+                                     <div class="service-card">
+                                         <span>✈️</span>
+                                         <h3>Airport Transfers</h3>
+                                         <small>Madurai • Trichy • Chennai • Trivandrum</small>
+                                     </div>
+
+                                     <div class="service-card">
+                                         <span>🎓</span>
+                                         <h3>Education Tours</h3>
+                                     </div>
+
+                                     <div class="service-card">
+                                         <span>📝</span>
+                                         <h3>Exam Transportation</h3>
+                                     </div>
+
+                                     <div class="service-card">
+                                         <span>🎂</span>
+                                         <h3>Birthday Functions</h3>
+                                     </div>
+
+                                     <div class="service-card">
+                                         <span>👨‍👩‍👧</span>
+                                         <h3>Family Tours</h3>
+                                     </div>
+
+                                     <div class="service-card">
+                                         <span>🏢</span>
+                                         <h3>Corporate Trips</h3>
+                                     </div>
+
+                                     <div class="service-card">
+                                         <span>👥</span>
+                                         <h3>Group Travel</h3>
+                                     </div>
+
+                                 </div>
+
+                             </div>
+
+                         </section>
+                         <section id="packages" class="packages-section">
+
+                             <div class="container">
+
+                                 <h2>Our Tour Packages</h2>
+                                 <p class="subtitle">
+                                     Explore beautiful destinations with comfortable and affordable travel packages.
+                                 </p>
+
+                                 <div class="package-grid">
+
+                                     <div class="package-card">
+                                         <div class="package-icon">🙏</div>
+                                         <h3>Tirupati Tour</h3>
+                                         <p>Comfortable spiritual journey with family and friends.</p>
+                                         <button onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'})">
+                                             Book Now
+                                         </button>
+                                     </div>
+
+                                     <div class="package-card">
+                                         <div class="package-icon">🛕</div>
+                                         <h3>Thiruchendur Tour</h3>
+                                         <p>Safe and reliable temple travel arrangements.</p>
+                                         <button onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'})">
+                                             Book Now
+                                         </button>
+                                     </div>
+
+                                     <div class="package-card">
+                                         <div class="package-icon">🌿</div>
+                                         <h3>Munnar Tour</h3>
+                                         <p>Enjoy the beauty of hills and tea plantations.</p>
+                                         <button onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'})">
+                                             Book Now
+                                         </button>
+                                     </div>
+
+                                     <div class="package-card">
+                                         <div class="package-icon">🏞️</div>
+                                         <h3>Vagamon Tour</h3>
+                                         <p>Experience the peaceful hills of Kerala.</p>
+                                         <button onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'})">
+                                             Book Now
+                                         </button>
+                                     </div>
+
+                                     <div class="package-card">
+                                         <div class="package-icon">💦</div>
+                                         <h3>Kutralam Tour</h3>
+                                         <p>Refresh yourself with nature and waterfalls.</p>
+                                         <button onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'})">
+                                             Book Now
+                                         </button>
+                                     </div>
+
+                                     <div class="package-card">
+                                         <div class="package-icon">🌴</div>
+                                         <h3>Kerala Tour</h3>
+                                         <p>Customized Kerala holiday packages.</p>
+                                         <button onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'})">
+                                             Book Now
+                                         </button>
+                                     </div>
+
+                                     <div class="package-card">
+                                         <div class="package-icon">🏖️</div>
+                                         <h3>Kanyakumari Tour</h3>
+                                         <p>Visit India's southernmost destination comfortably.</p>
+                                         <button onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'})">
+                                             Book Now
+                                         </button>
+                                     </div>
+
+                                     <div class="package-card">
+                                         <div class="package-icon">🏙️</div>
+                                         <h3>Bangalore Trip</h3>
+                                         <p>Reliable outstation travel for business and leisure.</p>
+                                         <button onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'})">
+                                             Book Now
+                                         </button>
+                                     </div>
+
+                                 </div>
+
+                             </div>
+
+                         </section>
+                         <section id="why">
+                             <section id="why" class="why-section">
+
+                                 <div class="container">
+
+                                     <h2>Why Choose OMMURUGA TOUR'S & TRAVELS?</h2>
+
+                                     <p class="subtitle">
+                                         We are committed to making every journey safe, comfortable,
+                                         affordable and memorable.
+                                     </p>
+
+                                     <div class="why-grid">
+
+                                         <div class="why-card">
+                                             <div class="icon">🏆</div>
+                                             <h3>15+ Years Experience</h3>
+                                             <p>Serving thousands of happy customers with trusted travel services.</p>
+                                         </div>
+
+                                         <div class="why-card">
+                                             <div class="icon">🚗</div>
+                                             <h3>Safe Vehicles</h3>
+                                             <p>Well-maintained cars and vans for a safe and comfortable journey.</p>
+                                         </div>
+
+                                         <div class="why-card">
+                                             <div class="icon">👨‍✈️</div>
+                                             <h3>Professional Drivers</h3>
+                                             <p>Experienced and courteous drivers ensuring a smooth travel experience.</p>
+                                         </div>
+
+                                         <div class="why-card">
+                                             <div class="icon">⏰</div>
+                                             <h3>On-Time Service</h3>
+                                             <p>Punctual pickup and drop services for every trip.</p>
+                                         </div>
+
+                                         <div class="why-card">
+                                             <div class="icon">💰</div>
+                                             <h3>Affordable Packages</h3>
+                                             <p>Quality travel services at competitive and transparent prices.</p>
+                                         </div>
+
+                                         <div class="why-card">
+                                             <div class="icon">🎯</div>
+                                             <h3>Customized Trips</h3>
+                                             <p>Travel plans tailored to your family, corporate or group needs.</p>
+                                         </div>
+
+                                         <div class="why-card">
+                                             <div class="icon">😊</div>
+                                             <h3>Customer Satisfaction</h3>
+                                             <p>Your comfort and happiness are our highest priorities.</p>
+                                         </div>
+
+                                         <div class="why-card">
+                                             <div class="icon">🌍</div>
+                                             <h3>Travel With Confidence</h3>
+                                             <p>Temple tours, airport transfers, family vacations and outstation trips—all under one roof.</p>
+                                         </div>
+
+                                     </div>
+
+                                 </div>
+
+                             </section>
+                         </section>
+                         <section id="book">
+                             <h2>Book via WhatsApp</h2>
+                             <input id="name" placeholder="Name"><input id="phone" placeholder="Phone">
+                             <input id="pickup" placeholder="Pickup"><input id="drop" placeholder="Destination">
+                             <input id="days" placeholder="No of Days"><input id="person" placeholder="No of persons">
+                             <input id="date" type="date"> <select id="vehicle">
+                                 <option value="">-- Select Vehicle --</option>
+                                 <option value="Swift Dzire">🚗 Swift Dzire (4+1 Seats)</option>
+                                 <option value="Toyota Innova">🚙 Toyota Innova (7 Seats)</option>
+                                 <option value="Ertiga">🚘 Ertiga (7 Seats)</option>
+                                 <option value="Tempo Traveller 12 Seater">🚌 Tempo Traveller (12 Seats)</option>
+                                 <option value="Tempo Traveller 17 Seater">🚌 Tempo Traveller (17 Seats)</option>
+                                 <option value="Coach Van">🚐 Coach Van</option>
+                             </select>
+                             <div class="form-group">
+
+
+
+                             </div>
+                             <button onclick="sendBooking()">Send to WhatsApp</button>
+                         </section>
+
+                         <section id="contact" class="contact-section">
+
+                             <div class="section-title">
+                                 <h2>Contact Us</h2>
+                                 <p>We're here to help you plan your next journey. Get in touch with us today!</p>
+                             </div>
+
+                             <div class="contact-container">
+
+                                 <!-- Contact Numbers -->
+                                 <div class="contact-card">
+                                     <div class="contact-icon">📞</div>
+                                     <h3>Call Us</h3>
+
+                                     <p>Our team is available to assist you with bookings, tour packages and travel enquiries.</p>
+
+                                     <a href="tel:9865955189">📱 +91 98659 55189</a>
+                                     <a href="tel:9942509600">📱 +91 99425 09600</a>
+                                     <a href="tel:9363955189">📱 +91 93639 55189</a>
+                                 </div>
+
+                                 <!-- Office -->
+                                 <div class="contact-card">
+                                     <div class="contact-icon">📍</div>
+                                     <h3>Visit Our Office</h3>
+
+                                     <p>
+                                         OMMURUGA TOUR'S & TRAVELS<br>
+                                         R.R. Nagar,<br>
+                                         Near Sivakasi – Sattur Road,<br>
+                                         Virudhunagar District, Tamil Nadu.
+                                     </p>
+
+                                     <p>
+                                         <strong>Business Hours</strong><br>
+                                         Monday - Sunday<br>
+                                         6:00 AM – 10:00 PM
+                                     </p>
+
+                                 </div>
+
+                                 <!-- Quick Booking -->
+                                 <div class="contact-card">
+                                     <div class="contact-icon">💬</div>
+                                     <h3>Quick Booking</h3>
+
+                                     <p>
+                                         Need a cab immediately? Contact us directly through WhatsApp
+                                         for instant booking confirmation.
+                                     </p>
+
+                                     <a class="contact-btn"
+                                        href="#book">
+                                         Book via WhatsApp
+                                     </a>
+
+                                     <a class="contact-btn secondary"
+                                        href="tel:9865955189">
+                                         Call Now
+                                     </a>
+
+                                 </div>
+
+                             </div>
+
+                         </section>
+
+                         <footer class="footer">
+
+                             <div class="footer-container">
+
+                                 <div class="footer-column">
+                                     <h3>OMMURUGA TOUR'S & TRAVELS</h3>
+                                     <p>Your Journey, Our Responsibility.</p>
+
+                                     <p>✔ 15+ Years Experience</p>
+                                     <p>✔ Trusted Travel Partner</p>
+                                     <p>✔ Safe & Comfortable Vehicles</p>
+                                 </div>
+
+                                 <div class="footer-column">
+                                     <h4>Quick Links</h4>
+
+                                     <a href="#">Home</a>
+                                     <a href="#">About</a>
+                                     <a href="#">Fleet</a>
+                                     <a href="#">Packages</a>
+                                     <a href="#">Services</a>
+                                     <a href="#">Contact</a>
+
+                                 </div>
+
+                                 <div class="footer-column">
+
+                                     <h4>Popular Tours</h4>
+
+                                     <p>Tirupati Tour</p>
+                                     <p>Munnar Tour</p>
+                                     <p>Kerala Tour</p>
+                                     <p>Kanyakumari Tour</p>
+                                     <p>Bangalore Trip</p>
+
+                                 </div>
+
+                                 <div class="footer-column">
+
+                                     <h4>Contact</h4>
+
+                                     <p>
+                                         📍 R.R. Nagar,<br>
+                                         Near Sivakasi–Sattur,<br>
+                                         Virudhunagar District
+                                     </p>
+
+                                     <p>📞 98659 55189</p>
+                                     <p>📞 99425 09600</p>
+                                     <p>📞 93639 55189</p>
+
+                                     <a class="whatsapp-btn"
+                                        href="https://wa.me/919865955189">
+                                         WhatsApp Us
+                                     </a>
+
+                                 </div>
+
+                             </div>
+
+                             <div class="footer-bottom">
+
+                                 © 2026 OMMURUGA TOUR'S & TRAVELS |
+                                 Your Journey, Our Responsibility
+
+                             </div>
+
+                         </footer>
+                         <script src="script.js"></script>
+
+                     </body></html>
