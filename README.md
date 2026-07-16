@@ -1,2 +1,0 @@
-# ommurugatravels
-travels

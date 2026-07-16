@@ -1,1 +1,0 @@
-Open index.html in a browser. Fill the form and click Send to WhatsApp.
