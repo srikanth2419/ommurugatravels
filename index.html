@@ -1,30 +1,36 @@
 <!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>OMMURUGA TOUR'S & TRAVELS</title><link rel="stylesheet" href="style.css"></head>
                      <body>
+                         
                          <header>
 
-                             <div class="logo">
-                                 OMMURUGA TOUR'S
-                             </div>
+                            <div class="logo">
+                                <a href="#"> <img src="./images/logo.png" alt="OMMURUGA Logo"></a>
+                               
 
-                             <nav id="navbar">
+                                <div class="brand">
+                                    <h2>OMMURUGA</h2>
+                                    <span>TOUR'S & TRAVELS</span>
+                                </div>
 
-                                 <a href="#home" onclick="toggleMenu_reset()">Home</a>
-                                 <a href="#about" onclick="toggleMenu_reset()">About</a>
-                                 <a href="#fleet" onclick="toggleMenu_reset()">Fleet</a>
-                                 <a href="#packages" onclick="toggleMenu_reset()">Packages</a>
-                                 <a href="#why" onclick="toggleMenu_reset()">Why Us</a>
-                                 <a href="#services" onclick="toggleMenu_reset()">Services</a>
-                                 <a href="#gallery" onclick="toggleMenu_reset()">Gallery</a>
-                                 <a href="#contact" onclick="toggleMenu_reset()">Contact</a>
+                            </div>
 
-                             </nav>
+                            <nav id="navbar">
 
-                             <div class="menu-btn" onclick="toggleMenu()">
-                                 ☰
-                             </div>
+                                <a href="#">Home</a>
+                                <a href="#about">About</a>
+                                <a href="#fleet">Fleet</a>
+                                <a href="#packages">Packages</a>
+                                <a href="#why">Why Us</a>
+                                <a href="#services">Services</a>
+                                <a href="#gallery">Gallery</a>
+                                <a href="#contact">Contact</a>
 
-                         </header>
+                            </nav>
+
+                            <div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+                        </header>
                          <section class="hero">
 
                              <div class="slider">
@@ -85,125 +91,300 @@
                              </div>
 
                          </section>
-                         <!-- ================= ABOUT US ================= -->
+                            <!-- ================= ABOUT US ================= -->
 
-                         <section id="about" class="about-section">
+                            <section id="about" class="about-section">
 
-                             <div class="container">
+                                <div class="container">
 
-                                 <div class="section-title">
-                                     <h2>About OMMURUGA TOUR'S & TRAVELS</h2>
-                                     <p>Your Journey, Our Responsibility</p>
-                                 </div>
+                                    <div class="section-title">
+                                        <h2>About OMMURUGA TOUR'S & TRAVELS</h2>
+                                        <p>Your Journey, Our Responsibility</p>
+                                    </div>
 
-                                 <div class="about-grid">
+                                    <div class="about-grid">
 
-                                     <div class="about-card">
-                                         <div class="about-icon">🏢</div>
-                                         <h3>Who We Are</h3>
+                                        <div class="about-card">
+                                            <div class="about-icon">🏢</div>
+                                            <h3>Who We Are</h3>
 
-                                         <p>
-                                             OMMURUGA TOUR'S & TRAVELS is one of the trusted travel service
-                                             providers serving Sivakasi, Sattur, Virudhunagar District and
-                                             nearby areas. With over <strong>15 years of experience</strong>,
-                                             we have built a reputation for delivering safe, comfortable and
-                                             reliable travel services for individuals, families, businesses
-                                             and groups.
-                                         </p>
-                                     </div>
+                                            <p>
+                                                OMMURUGA TOUR'S & TRAVELS is one of the trusted travel service
+                                                providers serving Sivakasi, Sattur, Virudhunagar District and
+                                                nearby areas. With over <strong>15 years of experience</strong>,
+                                                we have built a reputation for delivering safe, comfortable and
+                                                reliable travel services for individuals, families, businesses
+                                                and groups.
+                                            </p>
+                                        </div>
 
-                                     <div class="about-card">
-                                         <div class="about-icon">🎯</div>
-                                         <h3>Our Mission</h3>
+                                        <div class="about-card">
+                                            <div class="about-icon">🎯</div>
+                                            <h3>Our Mission</h3>
 
-                                         <p>
-                                             Our mission is to make every journey comfortable,
-                                             memorable and worry-free by providing well-maintained
-                                             vehicles, experienced drivers, affordable pricing and
-                                             exceptional customer service.
-                                         </p>
-                                     </div>
-                                 </div>
-                             </div>
+                                            <p>
+                                                Our mission is to make every journey comfortable,
+                                                memorable and worry-free by providing well-maintained
+                                                vehicles, experienced drivers, affordable pricing and
+                                                exceptional customer service.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
 
-                         </section>
+                            </section>
 
-                         <section id="fleet">
-                             <h2>Fleet</h2><div class="cards">
-                                 <div class="card"><h3>Swift Dzire</h3><button onclick="pick('Swift Dzire')">Book</button></div>
-                                 <div class="card"><h3>Toyota Innova</h3><button onclick="pick('Toyota Innova')">Book</button></div>
-                                 <div class="card"><h3>Ertiga</h3><button onclick="pick('Ertiga')">Book</button></div>
-                                 <div class="card"><h3>Tempo Traveller</h3><button onclick="pick('Tempo Traveller')">Book</button></div>
-                             </div>
-                         </section>
-                         <section id="services" class="services-section">
+                        <section id="fleet" class="fleet-section">
 
-                             <div class="container">
+                            <h2>Our Fleet</h2>
+                            <p class="subtitle">Choose the perfect vehicle for your journey</p>
 
-                                 <h2>Our Travel Services</h2>
+                            <div class="cards">
 
-                                 <p class="subtitle">
-                                     We provide transportation services for every occasion with comfort and safety.
-                                 </p>
+                                <div class="card">
+                                    <img src="./images/car2.jpeg" alt="Swift Dzire">
+                                    <div class="card-content">
+                                        <h3>Swift Dzire</h3>
+                                        <p>🚗 4+1 Seater</p>
+                                        <p>❄️ Air Conditioned</p>
+                                        <button onclick="pick('Swift Dzire')">Book Now</button>
+                                    </div>
+                                </div>
 
-                                 <div class="service-grid">
+                                <div class="card">
+                                    <img src="./images/car1.jpeg" alt="Toyota Innova">
+                                    <div class="card-content">
+                                        <h3>Toyota Innova</h3>
+                                        <p>🚙 7+1 Seater</p>
+                                        <p>❄️ Air Conditioned</p>
+                                        <button onclick="pick('Toyota Innova')">Book Now</button>
+                                    </div>
+                                </div>
 
-                                     <div class="service-card">
-                                         <span>💍</span>
-                                         <h3>Marriage Functions</h3>
-                                     </div>
+                                <div class="card">
+                                    <img src="./images/ertiga.jpeg" alt="Ertiga">
+                                    <div class="card-content">
+                                        <h3>Ertiga</h3>
+                                        <p>🚘 6+1 Seater</p>
+                                        <p>❄️ Air Conditioned</p>
+                                        <button onclick="pick('Ertiga')">Book Now</button>
+                                    </div>
+                                </div>
 
-                                     <div class="service-card">
-                                         <span>🏥</span>
-                                         <h3>Medical Travel</h3>
-                                     </div>
+                                <div class="card">
+                                    <img src="./images/car3.jpeg" alt="Tempo Traveller">
+                                    <div class="card-content">
+                                        <h3>Tempo Traveller</h3>
+                                        <p>🚌 15+1 Seater</p>
+                                        <p>❄️ Air Conditioned</p>
+                                        <button onclick="pick('Tempo Traveller')">Book Now</button>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="./images/car4.jpeg" alt="Coach Van">
+                                    <div class="card-content">
+                                        <h3>Coach Van</h3>
+                                        <p>🚌 25+1 Seater</p>
+                                        <button onclick="pick('Coach Van')">Book Now</button>
+                                    </div>
+                                </div>
 
-                                     <div class="service-card">
-                                         <span>🚉</span>
-                                         <h3>Railway Pickup & Drop</h3>
-                                     </div>
+                            </div>
 
-                                     <div class="service-card">
-                                         <span>✈️</span>
-                                         <h3>Airport Transfers</h3>
-                                         <small>Madurai • Trichy • Chennai • Trivandrum</small>
-                                     </div>
+                        </section>
+                            <section id="services" class="services-section">
 
-                                     <div class="service-card">
-                                         <span>🎓</span>
-                                         <h3>Education Tours</h3>
-                                     </div>
+                                <div class="container">
 
-                                     <div class="service-card">
-                                         <span>📝</span>
-                                         <h3>Exam Transportation</h3>
-                                     </div>
+                                    <h2>Our Travel Services</h2>
 
-                                     <div class="service-card">
-                                         <span>🎂</span>
-                                         <h3>Birthday Functions</h3>
-                                     </div>
+                                    <p class="subtitle">
+                                        We provide transportation services for every occasion with comfort and safety.
+                                    </p>
 
-                                     <div class="service-card">
-                                         <span>👨‍👩‍👧</span>
-                                         <h3>Family Tours</h3>
-                                     </div>
+                                    <div class="service-grid">
 
-                                     <div class="service-card">
-                                         <span>🏢</span>
-                                         <h3>Corporate Trips</h3>
-                                     </div>
+                                        <div class="service-card">
+                                            <span>💍</span>
+                                            <h3>Marriage Functions</h3>
+                                        </div>
 
-                                     <div class="service-card">
-                                         <span>👥</span>
-                                         <h3>Group Travel</h3>
-                                     </div>
+                                        <div class="service-card">
+                                            <span>🏥</span>
+                                            <h3>Medical Travel</h3>
+                                        </div>
 
-                                 </div>
+                                        <div class="service-card">
+                                            <span>🚉</span>
+                                            <h3>Railway Pickup & Drop</h3>
+                                        </div>
 
-                             </div>
+                                        <div class="service-card">
+                                            <span>✈️</span>
+                                            <h3>Airport Transfers</h3>
+                                            <small>Madurai • Trichy • Chennai • Trivandrum</small>
+                                        </div>
 
-                         </section>
+                                        <div class="service-card">
+                                            <span>🎓</span>
+                                            <h3>Education Tours</h3>
+                                        </div>
+
+                                        <div class="service-card">
+                                            <span>📝</span>
+                                            <h3>Exam Transportation</h3>
+                                        </div>
+
+                                        <div class="service-card">
+                                            <span>🎂</span>
+                                            <h3>Birthday Functions</h3>
+                                        </div>
+
+                                        <div class="service-card">
+                                            <span>👨‍👩‍👧</span>
+                                            <h3>Family Tours</h3>
+                                        </div>
+
+                                        <div class="service-card">
+                                            <span>🏢</span>
+                                            <h3>Corporate Trips</h3>
+                                        </div>
+
+                                        <div class="service-card">
+                                            <span>👥</span>
+                                            <h3>Group Travel</h3>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </section>
+                         <!-- ================= GALLERY ================= -->
+                        <section id="gallery" class="gallery-section">
+                            <div class="container">
+
+                                <div class="section-title">
+                                    <h2>Travel Gallery</h2>
+                                    <p>Memories from our happy journeys and tour destinations</p>
+                                </div>
+
+                                <div class="gallery-wrapper">
+
+                                    <button class="gallery-nav prev" onclick="slideGallery(-1)">&#10094;</button>
+
+                                    <div class="gallery-slider" id="gallerySlider">
+
+                                        <div class="gallery-card">
+                                            <img src="./images/gallery1.jpeg" alt="">
+                                            <div class="gallery-info">
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="gallery-card">
+                                            <img src="./images/gallery2.jpeg" alt="">
+                                            <div class="gallery-info">
+                                               
+                                            </div>
+                                        </div>
+
+                                        <div class="gallery-card">
+                                            <img src="./images/gallery3.jpeg" alt="">
+                                            <div class="gallery-info">
+                                               
+                                            </div>
+                                        </div>
+
+                                        <div class="gallery-card">
+                                            <img src="./images/gallery4.jpeg" alt="">
+                                            <div class="gallery-info">
+                                              
+                                            </div>
+                                        </div>
+
+                                        <div class="gallery-card">
+                                            <img src="./images/gallery5.jpeg" alt="">
+                                            <div class="gallery-info">
+                                              
+                                            </div>
+                                        </div>
+
+                                        <div class="gallery-card">
+                                            <img src="./images/gallery6.jpeg" alt="">
+                                            <div class="gallery-info">
+                                             
+                                            </div>
+                                        </div>
+
+                                        <div class="gallery-card">
+                                            <img src="./images/gallery7.jpeg" alt="">
+                                            <div class="gallery-info">
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="gallery-card">
+                                            <img src="./images/gallery8.jpeg" alt="">
+                                            <div class="gallery-info">
+                                              
+                                            </div>
+                                        </div>
+
+                                         <div class="gallery-card">
+                                            <img src="./images/gallery9.jpeg" alt="">
+                                            <div class="gallery-info">
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="gallery-card">
+                                            <img src="./images/gallery10.jpeg" alt="">
+                                            <div class="gallery-info">
+                                                
+                                            </div>
+                                        </div>
+
+                                         <div class="gallery-card">
+                                            <img src="./images/gallery11.jpeg" alt="">
+                                            <div class="gallery-info">
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="gallery-card">
+                                            <img src="./images/gallery12.jpeg" alt="">
+                                            <div class="gallery-info">
+                                               
+                                            </div>
+                                        </div>
+
+                                         <div class="gallery-card">
+                                            <img src="./images/gallery13.jpeg" alt="">
+                                            <div class="gallery-info">
+                                               
+                                            </div>
+                                        </div>
+
+                                        <div class="gallery-card">
+                                            <img src="./images/gallery14.jpeg" alt="">
+                                            <div class="gallery-info">
+                                               
+                                            </div>
+                                        </div>
+
+
+                                        <!-- Continue same pattern up to gallery20.jpg -->
+                                        <!-- gallery9.jpg ... gallery20.jpg -->
+
+                                    </div>
+
+                                    <button class="gallery-nav next" onclick="slideGallery(1)">&#10095;</button>
+
+                                </div>
+
+                            </div>
+                        </section>
                          <section id="packages" class="packages-section">
 
                              <div class="container">
@@ -370,8 +551,7 @@
                                  <option value="Swift Dzire">🚗 Swift Dzire (4+1 Seats)</option>
                                  <option value="Toyota Innova">🚙 Toyota Innova (7 Seats)</option>
                                  <option value="Ertiga">🚘 Ertiga (7 Seats)</option>
-                                 <option value="Tempo Traveller 12 Seater">🚌 Tempo Traveller (12 Seats)</option>
-                                 <option value="Tempo Traveller 17 Seater">🚌 Tempo Traveller (17 Seats)</option>
+                                 <option value="Tempo Traveller 15 Seater">🚌 Tempo Traveller (15 Seats)</option>
                                  <option value="Coach Van">🚐 Coach Van (25 Seats)</option>
                              </select>
                              <div class="form-group">
@@ -444,10 +624,30 @@
                                      </a>
 
                                  </div>
-
+                               
                              </div>
 
                          </section>
+                          <section id="location" class="map-section">
+
+                                    <div class="section-title">
+                                        <h2>Our Location</h2>
+                                        <p>Visit OMMURUGA TOUR'S & TRAVELS</p>
+                                    </div>
+
+                                    <div class="map-container">
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.044444444444!2d78.06666666666667!3d9.422222222222222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0133e45a1e5ed9%3A0x2b7df1afa7791ff2!2sOMMURUGA%20TOUR%27S%20%26%20TRAVELS!5e0!3m2!1sen!2sin!4v1635555555555!5m2!1sen!2sin"
+                                            width="100%"
+                                            height="450"
+                                            style="border:0;"
+                                            loading="lazy"
+                                            allowfullscreen
+                                            referrerpolicy="no-referrer-when-downgrade">
+                                        </iframe>
+                                    </div>
+
+                                </section>
 
                          <footer class="footer">
 
@@ -463,14 +663,13 @@
                                  </div>
 
                                  <div class="footer-column">
-                                     <h4>Quick Links</h4>
-
-                                     <a href="#">Home</a>
-                                     <a href="#">About</a>
-                                     <a href="#">Fleet</a>
-                                     <a href="#">Packages</a>
-                                     <a href="#">Services</a>
-                                     <a href="#">Contact</a>
+                                    <h4>Quick Links</h4>
+                                    <a href="#">Home</a>
+                                    <a href="#about">About</a>
+                                    <a href="#fleet">Fleet</a>
+                                    <a href="#packages">Packages</a>
+                                    <a href="#services">Services</a>
+                                    <a href="#contact">Contact</a>
 
                                  </div>
 

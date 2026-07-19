@@ -108,8 +108,8 @@ function sendBooking() {
         return;
     }
 
-    let message =
-        `🚖 OMMURUGA TOUR'S & TRAVELS
+   let message =
+`🚖 OMMURUGA TOUR'S & TRAVELS
 
 👤 Name : ${name}
 
@@ -120,6 +120,10 @@ function sendBooking() {
 🏁 Destination : ${drop}
 
 📅 Journey Date : ${date}
+
+🗓️ No. of Days : ${days}
+
+👨‍👩‍👧 No. of Persons : ${person}
 
 🚗 Vehicle : ${vehicle}
 
@@ -144,4 +148,14 @@ function toggleMenu_reset() {
 
     document.querySelector(".overlay").classList.remove("active");
 
+}
+
+/* ================= GALLERY SLIDER ================= */
+function slideGallery(direction) {
+    const slider = document.getElementById('gallerySlider');
+    const scrollAmount = 340;
+    slider.scrollBy({
+        left: direction * scrollAmount,
+        behavior: 'smooth'
+    });
 }
