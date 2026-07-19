@@ -281,7 +281,7 @@ input, select, textarea {
 @media(max-width:768px) {
     header {
         padding: 15px 20px;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .hero h1 {
@@ -604,30 +604,51 @@ select {
 
 @media(max-width:900px){
 
-header{
+    header{
 
-    padding:0 20px;
-}
+        padding:0 20px;
+    }
 
-.brand h2{
+    .brand h2{
 
-    font-size:22px;
-}
+        font-size:22px;
+    }
 
-.brand span{
+    .brand span{
 
-    font-size:11px;
-}
+        font-size:11px;
+    }
 
-nav{
+    .menu-btn{
 
-    display:none;
-}
+        display:block;
+    }
 
-.menu-btn{
+    nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 280px;
+        height: 100vh;
+        background: #082540;
+        display: flex;
+        flex-direction: column;
+        padding-top: 90px;
+        transition: .4s;
+        z-index: 999;
+    }
 
-    display:block;
-}
+        nav.active {
+            right: 0;
+        }
+
+        nav a {
+            padding: 18px 30px;
+            font-size: 18px;
+            border-bottom: 1px solid rgba(255,255,255,.08);
+            margin: 0;
+        }
+    
 }
 
 .contact-section {
